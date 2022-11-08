@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicologia Humanizada</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar" style="background-color: rgb(236, 187, 95)">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img_site_renas/projre.jpg" alt="Logo" width="200px" height="100px" class="d-inline-block align-text-top">
+                PSICOLOGIA HUMANIZADA
+              </a>
+            </div>
+        </nav> 
+    </header>
+    <section class="form_eu">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-6">
+                    <img src="img_site_renas/WhatsApp Image 2022-10-20 at 08.10.35.jpeg">
+                </div>    
+            </div>
+            <div class="col-6 col-md-6">
+                <h4>Quem Sou Eu!</h4>
+                <textarea name="quem_eu_sou" id="quem_eu_sou" cols="80" rows="15"></textarea>
+            </div>
+        </div>
+    </section>
+
+    <div class="row">
+        <div class="col-8 offset-2 col-md-6 offset-3">
+            <div class="img_meio">
+                <img src="img_site_renas/img.meio.jpeg">
+            </div>
+        </div>
+    </div>    
+
+    <section class="form_abord">
+        <div class="row">
+            <div class="col-6 col-md-6">
+                <h3>Formação Profissional</h3>
+                <textarea name="formacao" id="formacar" cols="50" rows="15"></textarea>
+            </div>
+            <div class="col-6 col-md-6">
+                <h3>Abordagens</h3>
+                <textarea name="abordagem" id="abordagem" cols="50" rows="15"></textarea>
+            </div>    
+        </div>
+        <br>
+        <div class="agendamento">
+            <h3>Agendamento</h3>
+                <form method="get" action="php">
+                    <label for="nome">Nome do Paciente</label>
+                    <input type="text" name="nome_usuario" id="nome" placeholder="Nome Completo">
+                </br>
+                    <label for="data">Data da Consulta</label>
+                    <input type="datetime-local" name="data_consulta" id="data">
+                </br>
+                    <label for="convenio">Convênio</label>
+                    <select name="convenio" id="convenio">
+                    <option value="">Selecione</option>
+                    <option value="unimed">Unimed</option>
+                    <option value="camed">Camed</option>
+                    <option value="hapvida">Hapvida</option>
+                    <option value="issec">Issec</option>
+                    <option value="particular">particular</option>
+                    </select>
+                </form>    
+        </div>
+     
+    </section>
+
+</body>
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+
+    <footer>
+        <div>
+            <H5>Fco. Renato Bezerra Bessa Filho</H5>
+        </div>
+        <div>
+            <h6>CRP:18760-CE </h6>
+        </div>
+    </footer>
+</html>

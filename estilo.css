@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(236, 187, 95);
+}
+
+header{
+    display: flex;
+}
+
+#logo_top{
+    width: 50px;
+    height: 30px;
+    float: left;
+}
+
+h5{
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: right;
+ margin-top: 0%;
+ padding: auto;
+ width: auto;
+ height: auto;
+}
+.container{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+   
+}
+.container img{
+    width: 350px;
+    height: 370px;
+    margin-left: 70%;
+    margin-top: 50px;
+}
+
+.container h4{
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70%;
+    text-align: center;
+}
+
+.container textarea{
+    margin-left: 40%;
+    text-decoration-color: blue;
+    border-color: rgb(139, 139, 248);
+    background-color: rgb(236, 187, 95);
+    font-style: normal;
+}
+
+.img_meio{
+    height: 400px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    margin: 50px auto 50px 150px;
+       
+}
+
+.form_abord{
+    margin: 10px 20px 10px 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.form_abord textarea{
+    background-color: rgb(236, 187, 95);
+    border-color: rgb(139, 139, 248);
+    border-style: groove;
+}
+
+.agendamento{
+    margin-top: 50px;
+    border-style: hidden;
+    backdrop-filter: blur(8px) saturate(74%);
+    -webkit-backdrop-filter: blur(8px) saturate(103%);
+    background-color: rgba(236,187,95);
+    border-radius: 12px;
+    border: 1px solid rgba(44, 194, 199, 0.849);
+}
+
+footer{
+    margin:auto;
+    height: 5px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h5{
+    float: left;
+    
+}
+
+footer h6{
+    float: right;
+}
+
